@@ -37,3 +37,11 @@ console.log(isValid(s))
 //string of char
 //boolean
 */
+
+var strStr = function(haystack, needle) {
+    return haystack.indexOf(needle)
+};
+
+var haystack = "";
+var needle = ""
+console.log(strStr(haystack,needle))
